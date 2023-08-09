@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common LineageOS Stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Miku Stuff
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
-PRODUCT_NAME := lineage_viva
+PRODUCT_NAME := miku_viva
 PRODUCT_DEVICE := viva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 11 Pro (4G)
+PRODUCT_MODEL := Redmi Note 11 Pro 
