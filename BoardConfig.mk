@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 # Helpful vars
 DEVICE_PATH := device/xiaomi/viva
 KERNEL_PATH := device/xiaomi/viva-kernel
