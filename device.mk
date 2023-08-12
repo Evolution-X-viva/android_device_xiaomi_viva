@@ -310,9 +310,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
-    android.hardware.nfc@1.2-service.pn8x \
-    com.android.nfc_extras
-
+    
 # NFC/SE configs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -469,9 +467,7 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-    hardware/mediatek \
-    vendor/nxp/nfc \
-    vendor/nxp/secure_element
+    hardware/mediatek 
 
 # Add vendor log tags
 include $(LOCAL_PATH)/configs/props/vendor_log_tags.mk
