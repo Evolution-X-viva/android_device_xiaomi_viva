@@ -20,3 +20,5 @@ PRODUCT_DEVICE := viva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 11 Pro 
+MIKU_GAPPS := true
+MIKU_MASTER := RndwnZan
