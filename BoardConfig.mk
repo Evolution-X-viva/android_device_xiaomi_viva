@@ -4,11 +4,17 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+BOARD_KERNEL_IMAGE_NAME := Image.gz
+TARGET_KERNEL_CONFIG := cherish
+
+
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Helpful vars
 DEVICE_PATH := device/xiaomi/viva
 KERNEL_PATH := device/xiaomi/viva-kernel
