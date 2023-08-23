@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_viva.mk
+    $(LOCAL_DIR)/aosp_viva.mk
 
 COMMON_LUNCH_CHOICES := \
-    $(foreach FLAVOR, user userdebug eng, evolution_viva-$(FLAVOR))
+    $(foreach FLAVOR, user userdebug eng, aosp_viva-$(FLAVOR))
