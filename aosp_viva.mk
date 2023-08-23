@@ -13,14 +13,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common EvolutionX Stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := evolution_viva
+PRODUCT_NAME := aosp_viva
 PRODUCT_DEVICE := viva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 11 Pro 
-EVO_BUILD_TYPE := UNOFFICIAL
-EXTRA_UDFPS_ANIMATIONS := true
+PEX_BUILD_TYPE := UNOFFICIAL
+PEX_MAINTAINER := RndwnZan
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
+
